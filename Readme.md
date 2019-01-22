@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Алексей Благов](https://up.htmlacademy.ru/htmlcss/24/user/937085).
-* Наставник: `Неизвестно`.
+* Наставник: Александр Юдин (https://htmlacademy.ru/profile/a-yudin).
 
 ---
 
