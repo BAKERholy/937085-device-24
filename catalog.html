@@ -10,10 +10,20 @@
 			<a class="main-header-logo" href="index.html">
 				<img src="img/logo.svg" width="163" height="35" alt="логотип Девайса" >
 			</a>
-			<input type="text" name="search" value="Поиск по сайту">
-			<ul class="catalog">
-				<li><a href="#">Каталог товаров</a></li>
-			</ul>
+				<input type="text" name="search" value="Поиск по сайту">
+				<ul class="catalog">
+					<li>
+						<a href="catalog-all.html">Каталог товаров</a>
+						<ul class="catalog-menu">
+							<li class="menu-items"><a href="reality.html">Виртуальная реальность</a></li>
+							<li class="menu-items"><a href="catalog.html">Моноподы для селфи</a></li>
+							<li class="menu-items"><a href="action.html">Экшен-камеры</a></li>
+							<li class="menu-items"><a href="fitnes.html">Фитнес-браслеты</a></li>
+							<li class="menu-items"><a href="smart-watch.html">Умные часы</a></li>
+							<li class="menu-items"><a href="kvadro.html">Квадрокоптеры</a></li>
+						</ul>
+					</li>
+				</ul>
 			<ul class="user-navigation">
 				<li class="login-link"><a href="personal-account.html">Валентин Петухов</a></li>
 				<li class="login-link"><a href="index.html">Выйти</a></li>
@@ -29,7 +39,7 @@
 			</ul>
 		</nav>
 	</header>
-	<h1 class="selfi">Моноподы дляселфи</h1>
+	<h1 class="selfi">Моноподы для селфи</h1>
 	<ul class="crumbs">
 		<li><a href="index.html">Главная</a></li>
 		<li><a href="catalog-all.html">Каталог товаров</a></li>
@@ -37,21 +47,41 @@
 	</ul>
 	<main class="main-container">
 		<section class="saitbar">
-			<fieldset>
-				<legend class="color">Цвет</legend>
-				<ul>
-					<li><input type="checkbox" name="a" value="черный"><label>Черный</label></li>
-					<li><input type="checkbox" name="a" value="Белый"><label>Белый</label></li>
-					<li><input type="checkbox" name="a" value="Синий"><label>Синий</label></li>
-					<li><input type="checkbox" name="a" value="Красный"><label>Красный</label></li>
-					<li><input type="checkbox" name="a" value="Розовый"><label>Розовый</label></li>
-				</ul>
-			</fieldset>
-			<h2 class="saitbar-name">Bluetooth</h2>
-			<ul class="saitbar-bluetooth">
-				<li><input type="checkbox" name="a" value="Есть" checked><label>Есть</label></li>
-				<li><input type="checkbox" name="a" value="Нет"><label>Нет</label></li>
-			</ul>
+			<h2 class="visually-hidden">Фильтор товаров</h2>
+			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+				<fieldset>
+					<legend>Цвет</legend>
+					<ul>
+						<li class="filter-options">
+							<input class="visually-hidden input-filters-checkbox" id="filter-black" type="checkbox" name="Черный"><label for="filter-black">Черный</label>
+						</li>
+						<li class="filter-options">
+							<input class="visually-hidden input-filters-checkbox" id="filter-white"  type="checkbox" name="Белый"><label for="filter-white">Белый</label>
+						</li>
+						<li class="filter-options">
+							<input class="visually-hidden input-filters-checkbox" id="filter-blue" type="checkbox" name="Синий"><label for="filter-blue">Синий</label>
+						</li>
+						<li class="filter-options">
+							<input class="visually-hidden input-filters-checkbox" id="filter-red" type="checkbox" name="Красный"><label for="filter-red">Красный</label>
+						</li>
+						<li class="filter-options">
+							<input class="visually-hidden input-filters-checkbox" id="filter-pink" type="checkbox" name="Розовый"><label for="filter-pink">Розовый</label>
+						</li>
+					</ul>
+	          	</fieldset>
+	          	<fieldset>
+	          		<legend>Bluetooth</legend>
+	          		<ul>
+						<li class="filter-options">
+							<input type="radio" class="visually-hidden input-filters-radio" id="bluetooth-yes" name="Bluetooth" value="Есть" checked><label for="bluetooth-yes">Есть</label>
+						</li>
+						<li class="filter-options">
+							<input type="radio" class="visually-hidden input-filters-radio" id="bluetooth-not" name="Bluetooth" value="Нет"><label for="bluetooth-not">Нет</label>
+						</li>
+					</ul>
+	          	</fieldset>
+	          	<button type="submit" class="button-filters button">Показать</button>
+			</form>
 		</section>
 		<section class="galery">
 			<ul class="catalog-list">
