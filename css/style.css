@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration: none;
+}
+.main-navigation{
+  font-size: 18px;
+  line-height:24px;
+  color: #000000;
+  background-color: #f8e296;
+  list-style: none;
+}
+.main-navigation a{
+  color: #000000;
+}
+.user-navigation{
+  list-style: none;
+}
+.compare-basket,
+.user-navigatiom,
+.site-navigation{
+  list-style: none;
+}
+.main-header{
+  background-color:#f8e296;
+}
+.main-navigation a:hover,
+.main-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus,
+.site-navigation a:hover,
+.site-navigation a:focus,
+.compare-basket a:hover,
+.compare-basket a:focus{
+  color:#635a3c;
+}
+
+.catalog li:hover + .menu-items { 
+  display: block;
+}
+.menu-items{
+  display: none;
+}
+.about-us{
+text-align: center;
+color: #777777;
+font-size: 15px;
+line-height: 30px;
+}
+.about-us h2{
+  font-size: 47px;
+  line-height: 48px;
+  color:#000000;
+}
+.companies{
+  list-style:none;
+}
+.contacts{
+  text-align: center;
+  color: #777777;
+  font-size: 15px;
+  line-height: 30px;
+}
+.contacts h2{
+  font-size: 47px;
+  line-height: 48px;
+  color:#000000;
+}
+.main-footer{
+  background-color: #464646;
+}
+.about-us-form{
+  display:none;
+}
+.main-footer a{
+  color:#ffffff;
+}
+.footer-social{
+  display: none;
+}
