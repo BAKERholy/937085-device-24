@@ -14,6 +14,14 @@
   font-weight: 300;              
   font-style: normal;
 }
+@font-face {
+  font-family: 'Gilroy - Extra Bold';
+  src: 
+      url('937085-device-24/fonts/gilroyextrabold.woff')  format('woff'),
+      url('937085-device-24/fonts/gilroyextrabold.woff2')  format('woff2');
+  font-weight: 300;              
+  font-style: normal;
+}
 body {
   margin: 0;
   padding: 0;
@@ -36,10 +44,7 @@ a{
   background-color: #f8e296;
 }
 .main-navigation ul{
-  font-size: 18px;
-  line-height:24px;
-  color: #000000;
-  list-style: none;
+  list-style:none;
 
 }
 .main-navigation a{
@@ -77,7 +82,6 @@ a{
   display: none;
 }
 .about-us{
-text-align: center;
 color: #777777;
 font-size: 15px;
 line-height: 30px;
@@ -90,11 +94,11 @@ line-height: 30px;
 .companies{
   list-style:none;
 }
-.contacts{
-  text-align: center;
+.contacts p{
   color: #777777;
   font-size: 15px;
   line-height: 30px;
+  font-weight: 100;
 }
 .contacts h2{
   font-size: 47px;
@@ -112,4 +116,49 @@ line-height: 30px;
 }
 .footer-social{
   display: none;
+}
+.footer-adres{
+  color:#ffffff;
+  font-family: "OpenSans";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.search-header{
+  width: 108px;
+  height: 15px;
+  opacity: 0.3;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.number-phone{
+  color:#ffffff;
+  font-family: "OpenSans";
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 30px;
+}
+ p{
+  font-size: 15px;
+  font-weight: normal;
+
+}
+.about-us ul{
+  color: #000000;
+  font-family: "Gilroy - Extra Bold";
+  font-weight: 900;
+  font-size: 21px;
+}
+.main-container a{
+  position: relative;
+  font-family: inherit;
+  color: inherit;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
 }
