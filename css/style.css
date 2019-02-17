@@ -7,19 +7,19 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'Gilroy';
+  src: 
+      url('937085-device-24/fonts/gilroyextrabold.woff')  format('woff'),
+      url('937085-device-24/fonts/gilroyextrabold.woff2')  format('woff2');
+  font-weight: 800;              
+  font-style: normal;
+}
+@font-face {
   font-family: 'OpenSans';
   src: 
       url('937085-device-24/fonts/opensans.woff')  format('woff'),
       url('937085-device-24/fonts/opensans.woff2')  format('woff2');
   font-weight: 300;              
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Gilroy - Extra Bold';
-  src: 
-      url('937085-device-24/fonts/gilroyextrabold.woff')  format('woff'),
-      url('937085-device-24/fonts/gilroyextrabold.woff2')  format('woff2');
-  font-weight: 800;              
   font-style: normal;
 }
 body {
@@ -93,14 +93,16 @@ a{
 }
 .about-us ul{
   color: #000000;
-  font-family: "Gilroy - Extra Bold";
+  font-family: "Gilroy";
   font-size: 16px;
   line-height: 40px;
+  font-weight: 800; 
 }
 .companies{
   list-style:none;
-  font-family: "Gilroy - Extra Bold";
+  font-family: "Gilroy";
   font-size: 16px;
+  font-weight: 800; 
 }
 
 .contacts h2 {
