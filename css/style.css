@@ -1,24 +1,24 @@
 @font-face {
   font-family: 'Gilroy';
   src: 
-      url('937085-device-24/fonts/gilroylight.woff')  format('woff'),
-      url('937085-device-24/fonts/gilroylight.woff2')  format('woff2');
+      url('../fonts/gilroylight.woff')  format('woff'),
+      url('../fonts/gilroylight.woff2')  format('woff2');
   font-weight: 300;              
   font-style: normal;
 }
 @font-face {
   font-family: 'Gilroy';
   src: 
-      url('937085-device-24/fonts/gilroyextrabold.woff')  format('woff'),
-      url('937085-device-24/fonts/gilroyextrabold.woff2')  format('woff2');
+      url('../fonts/gilroyextrabold.woff')  format('woff'),
+      url('../fonts/gilroyextrabold.woff2')  format('woff2');
   font-weight: 800;              
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans';
   src: 
-      url('937085-device-24/fonts/opensans.woff')  format('woff'),
-      url('937085-device-24/fonts/opensans.woff2')  format('woff2');
+      url('../fonts/opensans.woff')  format('woff'),
+      url('../fonts/opensans.woff2')  format('woff2');
   font-weight: 300;              
   font-style: normal;
 }
@@ -90,6 +90,8 @@ a{
   font-size: 47px;
   line-height: 48px;
   color:#000000;
+  font-family: "Gilroy";
+  font-weight: 800; 
 }
 .about-us ul{
   color: #000000;
@@ -109,6 +111,8 @@ a{
   font-size: 47px;
   line-height: 48px;
   color:#000000;
+  font-family: "Gilroy";
+  font-weight: 800;  
 }
 .main-footer {
   background-color: #464646;
