@@ -151,3 +151,23 @@ a{
 .main-footer a{
   color:#ffffff;
 }
+.main-navigation-footer a:hover,
+.main-navigation-footer a:focus,
+.number-phone a:hover,
+.number-phone a:focus,
+.site-navigation-footer a:hover,
+.site-navigation-footer a:focus,
+.compare-basket a:hover,
+.compare-basket a:focus{
+  color:#635a3c;
+}
+.footer-adres {
+  color:#ffffff;
+  font-family: "OpenSans";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.footer-social {
+  display:none;
+}
