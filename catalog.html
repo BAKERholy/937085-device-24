@@ -3,11 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Девайс</title>
+	<link rel="stylesheet" type="text/css" href="css/style-catalog.css">
+	<link href="css/normalize.css" rel="stylesheet">
 </head>
 <body>
-	<<nav class="main-navigation">
+	<nav class="main-navigation">
 			<a class="main-header-logo" href="index.html">
-				<img src="img/logo.svg" width="163" height="35" alt="логотип Девайса" >
+				<img src="img/logo.svg" width="163" height="35" alt="логотип Девайса">
 			</a>
 				<input type="text" name="search" value="Поиск по сайту">
 				<ul class="catalog">
@@ -48,8 +50,8 @@
 				<h2 class="visually-hidden">Фильтор товаров</h2>
 				<form class="filter" method="get" action="https://echo.htmlacademy.ru">
 					<fieldset>
-						<legend>Цвет</legend>
-						<ul>
+						<legend><span>Цвет</span></legend>
+						<ul class="option-list">
 							<li class="filter-options">
 								<input class="visually-hidden input-filters-checkbox" id="filter-black" type="checkbox" name="Черный"
 								><label for="filter-black">Черный</label>
@@ -73,8 +75,8 @@
 						</ul>
 				 	</fieldset>
 				 	<fieldset>
-				 		<legend>Bluetooth</legend>
-						<ul>
+				 		<legend><span>Bluetooth</span></legend>
+						<ul class="filter-radio">
 							<li class="filter-options">
 							<input type="radio" class="visually-hidden input-filters-radio" id="bluetooth-yes" name="Bluetooth" value="Есть" checked>
 							<label for="bluetooth-yes">Есть</label>
@@ -131,12 +133,12 @@
 		</section>
 	</main>
 	<footer class="main-footer">
-		<nav class="main-navigation">
+		<nav class="main-navigation-footer">
 			<a class="main-footer-logo">
 				<img src="img/logo.svg" width="163" height="35" alt="логотип Девайса" >
 			</a>
 			<p class="footer-adres">г.Москва, ул.Строителей, 15</p>
-			<ul class="site-navigation">
+			<ul class="site-navigation-footer">
 				<li><a href="#">Доставка</a></li>
 				<li><a href="#">Гарантия</a></li>
 				<li><a href="#">Контакты</a></li>
@@ -149,14 +151,14 @@
 				<li><a href="basket.html">Корзина</a></li>
 			</ul>
 		</nav>
-		<a href="tel:+74954959595">
+		<a class="number-phone" href="tel:+74954959595">Тел:+74954959595</a>
 			<ul class="footer-social">
 				<li><a class="social-button" href="#">Вконтакте</a></li>
 				<li><a class="social-button" href="#">Фейсбук</a></li>
 				<li><a class="social-button" href="#">Инстаграм</a></li>
 			</ul>
 			<a class="main-footer-logo" href="https://htmlacademy.ru/intensive/htmlcss">
-				<img src="img/htmlacademy.svg" width="360" height="150" alt="логотип Academy" >
+				<img src="img/logo-html.svg" width="27" height="35" alt="логотип Академии" >
 			</a>
 		</footer>
 	</body>
